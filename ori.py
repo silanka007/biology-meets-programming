@@ -22,4 +22,6 @@ dna = ""
 with open("./cholera.txt", "r") as sequence:
   dna = sequence.read()
 
-print(dna)
+len_of_cholera_ori = len(dna)
+
+print(len_of_cholera_ori)
