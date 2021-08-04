@@ -2,10 +2,12 @@
 # PatternCount(Pattern, Text) as the number of times that a k-mer
 # Pattern appears as a substring of Text.
 
+# naive approach
 def pattern_count(pattern, text):
   return text.count(pattern)
 
 print(pattern_count("at", "at hefdf at dfeffe atded fedat"))
+
 
 def pattern_count2(pattern, text):
   count = 0
