@@ -8,15 +8,6 @@
 #  the pathogenic bacterium that causes cholera; here is the nucleotide
 #  sequence appearing in the ori of Vibrio cholerae:
 
-# atcaatgatcaacgtaagcttctaagcatgatcaaggtgctcacacagtttatccacaac
-#  ctgagtggatgacatcaagataggtcgttgtatctccttcctctcgtactctcatgacca
-#  cggaaagatgatcaagagaggatgatttcttggccatatcgcaatgaatacttgtgactt
-#  gtgcttccaattgacatcttcagcgccatattgcgctggccaaggtgacggagcgggatt
-#  acgaaagcatgatcatggctgttgttctgtttatcttgttttgactgagacttgttagga
-#  tagacggtttttcatcactgactagccaaagccttactctgcctgacatcgaccgtaaat
-#  tgataatgaatttacatgcttccgcgacgatttacctcttgatcatcgatccgattgaag
-#  atcttcaattgttaattctcttgcctcgactcatagccatgatgagctcttgatcatgtt
-#  tccttaaccctctattttttacggaagaatgatcaagctgctgctcttgatcatcgtttc
 
 dna = ""
 with open("./cholera.txt", "r") as sequence:
