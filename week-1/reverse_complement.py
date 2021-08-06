@@ -10,6 +10,5 @@ def reverse_complement(dna_string):
         reverse_string += complement[i]
     return reverse_string
 
-reverseStr = reverse_complement("AGTCGCATAGT")
-print(reverseStr == "ACTATGCGACT")
+reverseStr = reverse_complement("ATCAATGATCAACGTAAGCTTCTAAGCATGATCAAGGTGCTCACACAGTTTATCCACAACCTGAGTGGATGACAT")
 print(reverseStr)
