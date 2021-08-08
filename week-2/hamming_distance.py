@@ -9,13 +9,14 @@
 
 def hammingDistance(p, q):
     mismatch_count = 0
-    maxLen = len(p) if len(p) > len(q) else len(q) 
+    maxLen = len(p) if len(p) < len(q) else len(q) 
     
     for i in range(maxLen):
         if p[i] != q[i]:
             mismatch_count += 1
     
     return mismatch_count
+
 
 if __name__ == "__main__":
     str1 = "AGCGTGCCGAAATATGCCGCCAGACCTGCTGCGGTGGCCTCGCCGACTTCACGGATGCCAAGTGCATAGAGGAAGCGAGCAAAGGTGGTTTCTTTCGCTTTATCCAGCGCGTTAACCACGTTCTGTGCCGACTTT"
