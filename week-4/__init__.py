@@ -105,16 +105,17 @@ def GreedyMotifSearchWithPseudocounts(dna, k, t):
     return BestMotifs
 
 
+# Code Challenge (2 points): Write a function Motifs(Profile, Dna) that takes a 
+# profile matrix Profile corresponding to a list of strings Dna as input and 
+# returns a list of the Profile-most probable k-mers in each string from Dna.
+def Motifs(profile, dna):
+
+
 if __name__ == "__main__":
-    motifs = ["AACGTA", "CCCGTT", "CACCTT", "GGATTA", "TTCCGG"]
-    # count = CountWithPseudocounts(motifs)
-    # print(count)
-    print("-----------------------------")
-    motifs = [
-        "GGCGTTCAGGCA",
-        "AAGAATCAGTCA",
-        "CAAGGAGTTCGC",
-        "CACGTCAATCAC",
-        "CAATAATATTCG",
-    ]
-    print(GreedyMotifSearchWithPseudocounts(motifs, 3, 5))
+    ProfileTestCase0= { 'A': [0.8, 0.0, 0.0, 0.2 ],
+    'C': [ 0.0, 0.6, 0.2, 0.0], 
+    'G': [ 0.2 ,0.2 ,0.8, 0.0], '
+    '         T': [ 0.0, 0.2, 0.0, 0.8]
+    }  
+    DnaTC0=['TTACCTTAAC','GATGTCTGTC','ACGGCGTTAG','CCCTAACGAG','CGTCAGAGGT']
+
